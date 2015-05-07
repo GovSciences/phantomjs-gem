@@ -149,7 +149,7 @@ module Phantomjs
           if system_phantomjs_installed?
             system_phantomjs_path
           else
-            File.expand_path File.join(Phantomjs.base_dir, platform, 'phantomjs.exe')
+            File.expand_path File.join(Phantomjs.base_dir, platform, 'bin', 'phantomjs.exe')
           end
         end
 
